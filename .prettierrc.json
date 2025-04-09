@@ -1,0 +1,27 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "semi": true,
+  "singleAttributePerLine": false,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "proseWrap": "preserve",
+  "embeddedLanguageFormatting": "off",
+  "htmlWhitespaceSensitivity": "css",
+  "overrides": [
+    {
+      "files": ["*.mdx"],
+      "options": {
+        "parser": "mdx",
+        "proseWrap": "preserve",
+        "printWidth": 120,
+        "htmlWhitespaceSensitivity": "css",
+        "bracketSameLine": true
+      }
+    }
+  ]
+}
